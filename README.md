@@ -67,7 +67,7 @@ public boolean HasWVIn() {
     return wm.hasWVIn();
 }
 
-// 创建 WebView
+// 创建 WebView ，参数为距离屏幕边距
 public void CreateWVIn(int left, int top, int right, int bottom) {
     wm.createWVIn(left, top, right, bottom);
 }
@@ -88,7 +88,7 @@ public void ReloadWVInURL() {
 }
 ```
 
-> ✅ **url** 为字符串类型地址，由我方提供，请联系运营获取。
+✅ **url** 为字符串类型地址，由我方提供，请联系运营获取。
 
 ## Unity 侧调用 Java 方法（C# 脚本）
 
