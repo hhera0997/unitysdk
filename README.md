@@ -110,7 +110,7 @@ public class SFSDKBridge : MonoBehaviour
 
     public bool CallJava_IsConfigEnabled()
     {
-        bool isEnabled = false；
+        bool isEnabled = false;
         if (activity != null)
         {
             isEnabled = activity.Call<bool>("IsConfigEnabled");
