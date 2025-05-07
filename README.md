@@ -2,7 +2,7 @@
 
 ## Unity 配置步骤
 
-### 1️⃣ 设置 `minSdkVersion` 为 23
+### 1️⃣ 设置 `minSdkVersion` 为 23 ，屏幕方向为竖屏
 
 在 `unityLibrary/build.gradle` 中将 `minSdkVersion` 设置为 **23** 或更高版本。
 
