@@ -41,7 +41,7 @@ import com.sfsdk.Manager;
     <activity android:hardwareAccelerated="true" android:name="com.unity3d.player.UnityPlayerActivity">
 ```
 
-### 6️⃣ 在 `onCreate` 中初始化 SFSDK 管理器
+### 6️⃣ 在 `UnityPlayerActivity onCreate` 中初始化 SFSDK 管理器
 
 ```java
 protected Manager wm;
